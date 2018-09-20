@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlugins", "MyPlugins\MyPlugins.csproj", "{09FF5632-C337-499A-A8E7-A67962DE8E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{2E42F0E2-8FBC-4F2B-BB12-2863E9D5C9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Workflows", "Custom Workflows\Custom Workflows.csproj", "{A936F3E4-B53D-458E-8850-AB17A8AAD7F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Resources", "Web Resources", "{F3D8BC8A-5028-4F83-AD4D-19382B6E35AE}"
+	ProjectSection(SolutionItems) = preProject
+		ContactScripts.js = ContactScripts.js
+		CustomUI.html = CustomUI.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09FF5632-C337-499A-A8E7-A67962DE8E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FF5632-C337-499A-A8E7-A67962DE8E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FF5632-C337-499A-A8E7-A67962DE8E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FF5632-C337-499A-A8E7-A67962DE8E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E42F0E2-8FBC-4F2B-BB12-2863E9D5C9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E42F0E2-8FBC-4F2B-BB12-2863E9D5C9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E42F0E2-8FBC-4F2B-BB12-2863E9D5C9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E42F0E2-8FBC-4F2B-BB12-2863E9D5C9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A936F3E4-B53D-458E-8850-AB17A8AAD7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A936F3E4-B53D-458E-8850-AB17A8AAD7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A936F3E4-B53D-458E-8850-AB17A8AAD7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A936F3E4-B53D-458E-8850-AB17A8AAD7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4BDEC76-ED28-4DC9-B413-650B6C74376F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lexmarkcrm.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyPlugins\\MyPlugins.csproj
+		SccProjectName1 = MyPlugins
+		SccLocalPath1 = MyPlugins
+		SccProjectUniqueName2 = ConsoleApp\\ConsoleApp.csproj
+		SccProjectName2 = ConsoleApp
+		SccLocalPath2 = ConsoleApp
+		SccProjectUniqueName3 = Custom\u0020Workflows\\Custom\u0020Workflows.csproj
+		SccProjectName3 = Custom\u0020Workflows
+		SccLocalPath3 = Custom\u0020Workflows
+	EndGlobalSection
+EndGlobal

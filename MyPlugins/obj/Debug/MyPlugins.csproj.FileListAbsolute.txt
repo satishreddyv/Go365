@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Go365\MyPlugins\bin\Debug\MyPlugins.dll
+C:\Users\Admin\source\repos\Go365\MyPlugins\bin\Debug\MyPlugins.pdb
+C:\Users\Admin\source\repos\Go365\MyPlugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Admin\source\repos\Go365\MyPlugins\obj\Debug\MyPlugins.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Go365\MyPlugins\obj\Debug\MyPlugins.dll
+C:\Users\Admin\source\repos\Go365\MyPlugins\obj\Debug\MyPlugins.pdb
+C:\Users\Admin\source\repos\Go365\MyPlugins\obj\Debug\MyPlugins.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Go365\MyPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\Admin\source\repos\Go365\MyPlugins\bin\Debug\MyPlugins.dll.config

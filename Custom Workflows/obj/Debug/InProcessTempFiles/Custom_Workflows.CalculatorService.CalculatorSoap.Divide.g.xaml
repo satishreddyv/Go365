@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<this:Divide this:EndpointConfigurationName="CalculatorSoap" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:cc="clr-namespace:Custom_Workflows.CalculatorService;assembly=Custom Workflows, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:cc1="clr-namespace:Custom_Workflows.CalculatorService;assembly=Custom Workflows" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://tempuri.org/" xmlns:p1="http://schemas.microsoft.com/netfx/2009/xaml/servicemodel" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System" xmlns:this="clr-namespace:Custom_Workflows.CalculatorService.Activities;assembly=Custom Workflows" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <this:Divide.Implementation>
+    <Sequence>
+      <Sequence.Variables>
+        <x:Reference>__ReferenceID1</x:Reference>
+        <x:Reference>__ReferenceID2</x:Reference>
+      </Sequence.Variables>
+      <p1:Send x:Name="__ReferenceID0" Action="http://tempuri.org/Divide" OperationName="Divide" ServiceContractName="p:CalculatorSoap">
+        <p1:Send.CorrelationInitializers>
+          <p1:RequestReplyCorrelationInitializer>
+            <p1:RequestReplyCorrelationInitializer.CorrelationHandle>
+              <InArgument x:TypeArguments="p1:CorrelationHandle">
+                <VariableValue x:TypeArguments="p1:CorrelationHandle">
+                  <VariableValue.Variable>
+                    <Variable x:TypeArguments="p1:CorrelationHandle" x:Name="__ReferenceID2" />
+                  </VariableValue.Variable>
+                </VariableValue>
+              </InArgument>
+            </p1:RequestReplyCorrelationInitializer.CorrelationHandle>
+          </p1:RequestReplyCorrelationInitializer>
+        </p1:Send.CorrelationInitializers>
+        <p1:SendMessageContent>
+          <InArgument x:TypeArguments="cc1:DivideRequest">[New Custom_Workflows.CalculatorService.DivideRequest() With { .intA = intA, .intB = intB }]</InArgument>
+        </p1:SendMessageContent>
+        <p1:Send.EndpointConfigurationName>
+          <PropertyReference x:TypeArguments="x:String" PropertyName="EndpointConfigurationName" />
+        </p1:Send.EndpointConfigurationName>
+      </p1:Send>
+      <p1:ReceiveReply Request="{x:Reference __ReferenceID0}" Action="*">
+        <p1:ReceiveMessageContent>
+          <OutArgument x:TypeArguments="cc1:DivideResponse">
+            <VariableReference x:TypeArguments="cc1:DivideResponse">
+              <VariableReference.Variable>
+                <Variable x:TypeArguments="cc1:DivideResponse" x:Name="__ReferenceID1" Name="tempResult_8a657913d8014fb5be00ccbf5156e169" />
+              </VariableReference.Variable>
+            </VariableReference>
+          </OutArgument>
+        </p1:ReceiveMessageContent>
+      </p1:ReceiveReply>
+      <Assign>
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[DivideResult]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tempResult_8a657913d8014fb5be00ccbf5156e169.DivideResult]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <sads:DebugSymbol.Symbol>d5UBQzpcVXNlcnNcQWRtaW5cc291cmNlXHJlcG9zXEdvMzY1XEN1c3RvbSBXb3JrZmxvd3NcQ29ubmVjdGVkIFNlcnZpY2VzXENhbGN1bGF0b3JTZXJ2aWNlXEN1c3RvbV9Xb3JrZmxvd3MuQ2FsY3VsYXRvclNlcnZpY2UuQ2FsY3VsYXRvclNvYXAuRGl2aWRlLnhhbWwJJQNTDgIBASoFPg8CAQo/BUkXAgEHSgVRDgIBAjk5OZUBAgEMLw8zHwIBC0ILRh8CAQlPL09pAgEFTDBMPgIBAw==</sads:DebugSymbol.Symbol>
+    </Sequence>
+  </this:Divide.Implementation>
+</this:Divide>

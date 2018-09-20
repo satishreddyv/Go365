@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\Go365\Go 365\MyPlugins\obj\Debug\MyPlugins.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Go365\Go 365\MyPlugins\obj\Debug\MyPlugins.csproj.CoreCompileInputs.cache

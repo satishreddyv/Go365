@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\Go365\Custom Workflows\bin\Debug\Custom Workflows.dll.config
+C:\Users\Admin\source\repos\Go365\Custom Workflows\bin\Debug\Custom Workflows.dll
+C:\Users\Admin\source\repos\Go365\Custom Workflows\bin\Debug\Custom Workflows.pdb
+C:\Users\Admin\source\repos\Go365\Custom Workflows\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Admin\source\repos\Go365\Custom Workflows\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Admin\source\repos\Go365\Custom Workflows\obj\Debug\Custom Workflows.dll
+C:\Users\Admin\source\repos\Go365\Custom Workflows\obj\Debug\Custom Workflows.pdb
+C:\Users\Admin\source\repos\Go365\Custom Workflows\obj\Debug\Custom Workflows.csproj.CoreCompileInputs.cache
